@@ -4,7 +4,7 @@ Simple Thread-Safe Java Singleton to dispatch event to any listening object. It'
 ### Usage
 ```java
 public static void main(...args){
-  // subscribe for listening events
+  // subscribe for listening an events
   EventDispatcher.addEventListener("myCustomEvent", this, "dataReadyEventHandler");
   EventDispatcher.addEventListener("myCustomEvent2", this, "dataReadyEventHandler");
   EventDispatcher.addEventListener("myCustomEvent3", this, "anotherEventHandler");
