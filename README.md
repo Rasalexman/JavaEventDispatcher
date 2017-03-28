@@ -39,3 +39,17 @@ public void anotherEventHandler(String event, Object data){
   println("ANOTHER EVENT FUNCTION");
 }
 ```
+If u have any feedback of using this class please let me know about it. Also open an issue if u have any question or suggestion how you can improve this, or may be you have your own realization. Thank! Have a nice coding
+
+### Todos
+
+ - Write Performance Test
+ - Add "Priority" of calling listeners
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
